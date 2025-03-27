@@ -1,0 +1,75 @@
+*{/*selecting all the HTML elements*/
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: arial;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    margin:20px;
+}
+h3{
+    margin:20px;
+}
+p{
+    line-height: 1.5;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-image: url(./img/header.jpg);
+    height: 400px;
+    background-size:cover;
+    color:white;
+    text-align: center;
+}
+main{
+    margin: 30px;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media(max-width:768px){
+    .about-container{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.btn-details{
+    display: block;
+    background-color: orange;
+    width:100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.houses-container{
+    display:flex;
+
+}
+
+@media(max-width:768px){
+    .houses-container{
+        flex-direction: column;
+    }
+}
+
+.house-item{
+    margin: 30px;
+}
+.icons-container{
+    display: flex;
+}
+.icons-container li{
+    display: flex;
+    width: 30%;
+}
